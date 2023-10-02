@@ -24,7 +24,7 @@ export const TrpcProvider: React.FC<{ children: React.ReactNode; }> = ({
     // const queryClient = qc;
 
     const url = process.env.NEXT_PUBLIC_SITE_URL
-        ? `https://${process.env.NEXT_PUBLIC_SITE_URL}`
+        ? `https://${process.env.NEXT_PUBLIC_SITE_URL}/api/trpc/`
         : "http://localhost:3000/api/trpc/";
 
     const [trpcClient] = useState(() =>
