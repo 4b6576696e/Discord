@@ -15,7 +15,7 @@ export const dynamic = "force-dynamic";
 
 
 export const metadata: Metadata = {
-    title: '🇩.🇮.🇸.🇨. 🅾️. 🇷. 🇩',
+    title: 'ORCA',
     description: 'Created by Kevin G',
     icons: {
         icon: '/favicon.ico',
